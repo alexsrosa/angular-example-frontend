@@ -22,6 +22,15 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Configure the JSON server
+
+1# Execute: `npm install -g json-server`
+2# Create file: db.json on the root directory.
+3# Run Json Server: `json-server --watch db.json`
+4# See new endpoint: `http://localhost:3000/locations`
+
+
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
